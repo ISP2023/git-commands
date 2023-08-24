@@ -12,7 +12,7 @@
    Todo write the git command for this
    ```
 
-3. (Pushing a new branch) You commit some files to the `dev-foo` branch and try to "push" them to Github, but it fails as shown here:
+3. (Pushing a new branch) You commit some files to the `dev-foo` branch and try to "push" them to Github, but it fails with this error message:
 
    ```
    cmd>  git checkout dev-foo
@@ -29,10 +29,10 @@
 5. (Create a local tracking branch for a remote branch) The remote repository (`origin`) has a branch named `e2e-test` that you don't have in your local repository.   
    The command to create a new local branch as a copy of the remote `e2e-test` branch that **tracks** the remote branch is:
    ```
-   Todo There are many commands that will do this.  You may write one or more than one.
+   Todo There are many commands that will do this.  Write any one that works.
    ```
 
-6. The command to change the URL of the remote "origin" to a new URL, such as `https://hostname/newuser/new-repo-name`, is:
+6. The command to change the URL of the remote named "origin" to a new URL, such as `https://hostname/newuser/new-repo-name`, is:
    ```
    TODO your answer
    ```
@@ -40,7 +40,8 @@
    - you change the name of a repo on Github
    - you transfer ownership of a Github repo to someone else
    - you move from Github to another hosting site, like Bitbucket
-   - you want to switch from the https to the ssh protocol (the remote URL is different)    
+   - you want to switch from the https to the ssh protocol (the remote URL is different)
+   In all these cases, you need to update the URL of "origin" in your local repo, using your answer to this question.    
 
 8. To create a *second* remote repository for your local repo, the command to add a remote named "bitbucket" with the URL "https://bitbucket.org/your-username/git-commands" is:
    ```
