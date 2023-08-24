@@ -1,7 +1,6 @@
 ## Commands for Remotes
 
 > TODO Write your answers and then remove **all** the TODO comments
-   ```
 
 1. List all your remote repositories and show their URLs:
    ```
