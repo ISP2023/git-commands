@@ -97,21 +97,20 @@ test/
    ```
 
 6. In any project, there are some files and directories that you **should not** commit to git.    
-   For a Python project, name *at least* files or directories that you should not commit to git:
+   For a Python project, name *at least* 3 files or directories that you should not commit to git:
+   ```
    - 
    - 
    -
-
+   ```
 
 7. Command to move all the .py files from the `src` dir to the top-level directory of this repository. This command moves them in your working copy *and* in the git repo (when you commit the change):
    ```
 
    ```
 
-
 8. In this repository, create your own `.gitignore` file that you can reuse in other Python projects.  Add everything that you think is relevant.    
    *Hint:* A good place to start is to create a new repo on Github and during the creation dialog, ask Github to make a .gitignore for Python projects. Then edit it.  Don't forget to include pytest output and MacOS junk.
-
 
 
 ## Undo Changes and Recover Files
@@ -162,7 +161,6 @@ test/
 
    ```
 
-
 3. List all the files in the current branch of the repository:
    ```
    todo your answer
@@ -177,7 +175,6 @@ test/
    test/test_b.py
    ```
 
-
 ## Branch and Merge
 
 **TODO**: This section is free-form.  Create 4 numbered items for common branch-and-merge tasks you would like to remember and show the git command to do each one. (You are write *more* than 4 if you want.)
@@ -187,7 +184,6 @@ test/
 ## Favorites
 
 > TODO: Describe *at least* 1 task that you would like to remember, and the git command(s) to do it.
-
 
 
 ---
